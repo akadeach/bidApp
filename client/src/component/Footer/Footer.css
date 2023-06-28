@@ -1,0 +1,39 @@
+.footer,
+.footer-block {
+  padding: 11px;
+  height: 40px;
+  width: 100%;
+  overflow: auto;
+}
+.footer {
+  background-color: teal;
+  border-top: 1px solid rgb(0, 80, 80);
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  overflow: auto;
+  color: white;
+}
+.footer-block {
+  display: block;
+}
+
+a.profile {
+  color: white;
+  text-decoration: underline;
+}
+a.profile:hover {
+  color: rgb(255, 213, 0);
+  text-decoration: underline;
+}
+.footer-container {
+  /* padding: 7px; */
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
