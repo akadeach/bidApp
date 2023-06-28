@@ -46,7 +46,7 @@ A brief explanation on the basic workflow of the application.
 1. Clone this repository
 
    ```shell
-   git clone https://github.com/fintechutcc/Bidding.git
+   git clone https://github.com/akadeach/bidApp.git
    cd Bidding
    ```
 
