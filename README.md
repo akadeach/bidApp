@@ -1,18 +1,18 @@
-# Decentralized Voting 
+# Decentralized Bidding 
 
-A decentralized voting system based on [Ethereum blockchain](https://ethereum.org/dapps/) technology.
+A decentralized Bidding system based on [Ethereum blockchain](https://ethereum.org/dapps/) technology.
 
-> This code was cloned from https://github.com/arlbibek/dVoting.
+> This code was cloned from https://github.com/akadeach/bidApp.git.
 
 ## System Workflow
 
 A brief explanation on the basic workflow of the application.
 
-- Admin will create a voting instance by launching/deploying the system in a blockchain network (EVM), then create an election instance and start the election with the details of the election filled in (including candidates for voters to vote).
-- Then the likely voters connect to the same blockchain network register to become a voter. Once the users successfully register, their respective details are sent/displayed in the admins' panel (i.e. verification page).
-- The admin then will check if the registration information (blockchain account address, name, and phone number) is valid and matches with his record. If yes, then the admin approves the registered user making them eligible to take part and cast their respective vote in the election.
-- The registered user (voter) following the approval from the admin casts their vote to the candidate of interest (from the voting page).
-- After some time, depending on the scale of the election the admin ends the election. As that happens the voting is closed and the results are displayed announcing the winner at the top of the results page.
+- Admin will create a Bidding instance by launching/deploying the system in a blockchain network (EVM), then create an auction instance and start the auction with the details of the auction filled in (including candidates for bidders to bid).
+- Then the likely bidders connect to the same blockchain network register to become a bidder. Once the users successfully register, their respective details are sent/displayed in the admins' panel (i.e. verification page).
+- The admin then will check if the registration information (blockchain account address, name, and phone number) is valid and matches with his record. If yes, then the admin approves the registered user making them eligible to take part and cast their respective bid in the auction.
+- The registered user (bidder) following the approval from the admin casts their bid to the candidate of interest (from the Bidding page).
+- After some time, depending on the scale of the auction the admin ends the auction. As that happens the Bidding is closed and the results are displayed announcing the winner at the top of the results page.
 
 ---
 
@@ -46,8 +46,8 @@ A brief explanation on the basic workflow of the application.
 1. Clone this repository
 
    ```shell
-   git clone https://github.com/fintechutcc/Voting.git
-   cd Voting
+   git clone https://github.com/fintechutcc/Bidding.git
+   cd Bidding
    ```
 
 2. Run local Ethereum blockchain, e.g., Ganache.
@@ -63,7 +63,7 @@ A brief explanation on the basic workflow of the application.
 5. Deploy smart contract to the (local) blockchain network
 
    ```shell
-   # on the Voting directory
+   # on the Bidding directory
    truffle migrate
    ```
 
